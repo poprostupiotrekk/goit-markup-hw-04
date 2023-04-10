@@ -377,7 +377,7 @@ body {
   background-color: var(--brand-main-color);
 }
 .adress-1 {
-  display: flex;
+  display: inline-block;
   color: var(--brand-color-white);
   padding-bottom: 20px;
   font-weight: 700;
@@ -387,7 +387,7 @@ body {
   flex-direction: column;
 }
 .join-1 {
-  display: inline-flex;
+  display: inline-block;
 }
 
 .icon-2 {
