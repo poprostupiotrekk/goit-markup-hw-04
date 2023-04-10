@@ -113,7 +113,6 @@ body {
 .link-nav:focus,
 .link-nav:hover {
   color: var(--brand-main-color);
-
 }
 
 /*footer*/
@@ -331,7 +330,7 @@ body {
 
 .icon-header:focus,
 .icon-header:hover {
-fill: var(--brand-main-color);
+  fill: var(--brand-main-color);
 }
 
 .list-position {
@@ -360,14 +359,15 @@ fill: var(--brand-main-color);
 
 .position-2 {
   display: inline-flex;
-  padding: 5px;
   font-style: normal;
   color: var(--brand-color-white);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 12px;
+  margin-right: 5px;
 }
 .icon-1 {
+  display: flex;
   fill: var(--brand-color-white);
   cursor: pointer;
 }
@@ -377,8 +377,7 @@ fill: var(--brand-main-color);
   background-color: var(--brand-main-color);
 }
 .adress-1 {
-  display: block;
-  font-style: normal;
+  display: flex;
   color: var(--brand-color-white);
   padding-bottom: 20px;
   font-weight: 700;
